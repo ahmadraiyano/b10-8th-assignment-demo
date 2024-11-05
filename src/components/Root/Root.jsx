@@ -4,13 +4,9 @@ import NavBar from "../NavBar/NavBar";
 
 const Root = () => {
 
-    const selectedWindow = () => {
-        document.getElementById("home").classList.add("hidden");
-    }
-
     return (
-        <div className="bg-gray-100">
-            <div className="hidden"><NavBar></NavBar></div>
+        <div className="bg-gray-100 pt-8">
+            <NavBar></NavBar>
             <Outlet></Outlet>
             <Footer></Footer>
         </div>

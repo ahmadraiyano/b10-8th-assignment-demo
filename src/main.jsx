@@ -10,7 +10,6 @@ import Error from './components/Error/Error';
 import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
 import Statistics from './components/Statistics/Statistics';
-import NavContainer from './components/NavContainer/NavContainer';
 
 const router = createBrowserRouter([
   {
@@ -20,11 +19,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <NavContainer></NavContainer>
+        element: <Home></Home>
       },
       {
         path: 'dashboard',
         element: <Dashboard></Dashboard>
+
       },
       {
         path: 'statistics',
