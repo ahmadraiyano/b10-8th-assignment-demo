@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { CiShoppingCart, CiHeart } from "react-icons/ci";
 
 const NavBar = () => {
 
@@ -8,12 +9,12 @@ const NavBar = () => {
             <li><NavLink to="/" Id="home">Home</NavLink></li>
             <li><NavLink to="/statistics">Statistics</NavLink></li>
             <li><NavLink to="/dashboard">Dashboard</NavLink></li>
-            <li><a>Extra</a></li>
+            <li><Link>Extra</Link></li>
         </>
 
     return (
         
-            <div className="w-11/12 mx-auto   bg-opacity-25 border-slate-900 px-4 pt-4 border-x border-t rounded-t-lg">
+            <div className="w-11/12 mx-auto   bg-opacity-25 border-slate-900 px-4 pt-4 border-x border-t rounded-t-lg box-border">
                 <div className='bg-purple-500 navbar'>
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -44,8 +45,9 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="navbar-end gap-1 md:gap-2">
+                    <a className="md:p-2 rounded-full bg-white text-xl"><CiShoppingCart/></a>
+                    <a className="md:p-2 rounded-full bg-white text-xl"><CiHeart /></a>
                 </div>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <footer className="bg-white">
-            <div className="w-11/12 mx-auto">
+        <footer className="bg-white py-16">
+            <div className="w-10/12 mx-auto">
                 <div className="text-center">
                     <h2 className="text-4xl font-bold">Gadget Heaven</h2>
-                    <p className="text-gray-500">Leading the way in cutting-edge technology and innovation.</p>
+                    <p className="text-gray-500 my-6">Leading the way in cutting-edge technology and innovation.</p>
                 </div>
                 <div className="md:flex md:justify-around">
                     <nav className="flex flex-col">
@@ -14,7 +14,7 @@ const Footer = () => {
                         <a className="link link-hover">Shipping & Delivery</a>
                         <a className="link link-hover">Returns</a>
                     </nav>
-                    <nav className="flex flex-col">
+                    <nav className="flex flex-col my-4 md:my-0">
                         <h6 className="footer-title">Company</h6>
                         <a className="link link-hover">About us</a>
                         <a className="link link-hover">Careers</a>

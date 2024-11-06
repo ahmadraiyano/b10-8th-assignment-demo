@@ -1,0 +1,134 @@
+[
+    {
+        "product_id": "P001",
+        "product_title": "iPhone 15 Pro",
+        "product_image": "https://i.ibb.co.com/hZKwK98/3207184.jpg",
+        "category": "Phone",
+        "price": 1199,
+        "description": "Latest iPhone model with A17 Bionic chip and improved camera capabilities.",
+        "Specification": ["6.1-inch display", "128GB storage", "48MP main camera", "A17 Bionic chip", "5G compatible"],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://i.ibb.co.com/DKVP5fJ/Galaxy-S23-Ultra-Green-3380.jpg",
+        "category": "Phone",
+        "price": 1299,
+        "description": "Samsung’s flagship smartphone with high-resolution display and powerful camera setup.",
+        "Specification": ["6.8-inch display", "256GB storage", "108MP main camera", "Snapdragon 8 Gen 2", "5G compatible"],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P003",
+        "product_title": "MacBook Pro 16-inch",
+        "product_image": "https://i.ibb.co.com/YkSTqCF/3713-36363.jpg",
+        "category": "Laptop",
+        "price": 2499,
+        "description": "Powerful laptop for professionals with M2 Pro chip and stunning Retina display.",
+        "Specification": ["16-inch Retina display", "512GB SSD", "16GB RAM", "M2 Pro chip", "macOS"],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "P004",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/TPRXNWq/Dell-XPS-13-Plus-BD-Price-1.webp",
+        "category": "Laptop",
+        "price": 1499,
+        "description": "Sleek and powerful laptop with Intel i7 processor and nearly bezel-less display.",
+        "Specification": ["13.4-inch FHD display", "256GB SSD", "16GB RAM", "Intel i7", "Windows 11"],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P005",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://i.ibb.co.com/3fDGpgc/Starlight-8105.jpg",
+        "category": "Smart Watch",
+        "price": 399,
+        "description": "Advanced smartwatch with fitness tracking, ECG, and blood oxygen monitoring.",
+        "Specification": ["Always-on Retina display", "GPS + Cellular", "Heart rate monitor", "ECG app", "Water resistant"],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P006",
+        "product_title": "Samsung Galaxy Watch5",
+        "product_image": "https://i.ibb.co.com/5TyJptZ/Galaxy-Watch5-graphite-custom-mac-bd.webp",
+        "category": "Smart Watch",
+        "price": 329,
+        "description": "Versatile smartwatch with comprehensive health tracking and long battery life.",
+        "Specification": ["1.4-inch display", "GPS", "Heart rate monitor", "Sleep tracking", "Water resistant"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "P007",
+        "product_title": "iPad Pro 11-inch",
+        "product_image": "https://i.ibb.co.com/8mCrdxW/2469-64685.jpg",
+        "category": "Tablet",
+        "price": 799,
+        "description": "High-performance tablet with M2 chip and Liquid Retina display.",
+        "Specification": ["11-inch Liquid Retina display", "128GB storage", "M2 chip", "Apple Pencil compatible", "Face ID"],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P008",
+        "product_title": "Samsung Galaxy Tab S8",
+        "product_image": "https://i.ibb.co.com/1q6MtK0/5034-23715.jpg",
+        "category": "Tablet",
+        "price": 699,
+        "description": "Versatile Android tablet with S Pen and high-resolution display.",
+        "Specification": ["11-inch display", "128GB storage", "Snapdragon 8 Gen 1", "S Pen included", "5G compatible"],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P009",
+        "product_title": "HP Spectre x360 14",
+        "product_image": "https://i.ibb.co.com/wRM27bv/HP-Spectre-x360-Convertible-14-EF2013-DX-a-1801.jpg",
+        "category": "Laptop",
+        "price": 1399,
+        "description": "Convertible laptop with 2-in-1 design, touch screen, and long battery life.",
+        "Specification": ["13.5-inch 3K2K OLED", "512GB SSD", "16GB RAM", "Intel i7", "Windows 11"],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P010",
+        "product_title": "OnePlus 11 5G",
+        "product_image": "https://i.ibb.co.com/Qd98W0J/One-Plus-11-3-4957.jpg",
+        "category": "Phone",
+        "price": 799,
+        "description": "High-performance 5G smartphone with fast charging and vibrant display.",
+        "Specification": ["6.7-inch AMOLED", "128GB storage", "50MP main camera", "Snapdragon 8 Gen 2", "5G compatible"],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P011",
+        "product_title": "Fitbit Versa 4",
+        "product_image": "https://i.ibb.co.com/vx5rW1h/Versa-4-Black-2109.jpg",
+        "category": "Smart Watch",
+        "price": 229,
+        "description": "Fitness-focused smartwatch with built-in GPS and heart rate tracking.",
+        "Specification": ["1.58-inch display", "GPS", "Heart rate monitor", "20+ exercise modes", "Sleep tracking"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "P012",
+        "product_title": "Lenovo Tab P11 Pro Gen 2",
+        "product_image": "https://i.ibb.co.com/QPDngzN/Lenovo-Tab-P11-Pro-Gen2.jpg",
+        "category": "Tablet",
+        "price": 499,
+        "description": "Affordable yet powerful tablet with OLED display and Dolby Atmos support.",
+        "Specification": ["11.2-inch OLED display", "128GB storage", "MediaTek Kompanio 1300T", "Dolby Atmos", "5G compatible"],
+        "availability": true,
+        "rating": 4.4
+    }
+]
