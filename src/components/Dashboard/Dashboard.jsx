@@ -4,7 +4,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Cart from '../Cart/Cart';
 import Wishlist from '../Wishlist/Wishlist';
-import GadgetDetails from '../GadgetDetails/GadgetDetails';
 import { getStoredCart } from '../utility/cart';
 
 const Dashboard = () => {
@@ -15,12 +14,11 @@ const Dashboard = () => {
     const allGadgets = useLoaderData();
 
     useEffect(() => {
-        const storedCart = getStoredCart();
-        const storedCartData = storedCart.map(id => toString(id));
+        const storedCartList = getStoredCart();
 
-        console.log(allGadgets, storedCart);
+        console.log(allGadgets, storedCartList);
 
-        const cartGadgetList = allGadgets.filter(gadget => storedCartData.includes(gadget.product_id));
+        const cartGadgetList = allGadgets.filter(gadget => storedCartList.includes(gadget.product_id));
 
         setCartList(cartGadgetList);
         
