@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { LiaDollarSignSolid } from "react-icons/lia";
 import { CiStar, CiHeart, CiShoppingCart } from "react-icons/ci";
+import { addToStoredCart } from '../utility/cart';
+import { addToStoredWishlist } from '../utility/wishlist';
 
 const GadgetDetails = () => {
 
@@ -14,6 +16,14 @@ const GadgetDetails = () => {
     const gadget = data.find(gadget => gadget.product_id === product_id);
 
     const { product_image, product_title, price, availability, Specification, description, rating, product_id: id } = gadget;
+
+    const handleCart = (id) => {
+        addToStoredCart(id)
+    }
+
+    const handleWishlist = (id) => {
+        addToStoredWishlist(id)
+    }
 
 
     return (
@@ -51,9 +61,11 @@ const GadgetDetails = () => {
                         </span>
                         </div>
                         <div className='flex gap-x-2'>
-                        <button className="btn">Add To Cart <span className='text-3xl'><CiShoppingCart/></span></button>
-                        <Link className='border hover:bg-slate-200 text-3xl content-center items-center p-2 rounded-full'><CiHeart /></Link>
+                        <button onClick={() => handleCart(product_id)} className="btn">Add To Cart <span className='text-3xl'><CiShoppingCart/></span></button>
+                        <Link onClick={() => handleWishlist(product_id)} className='border hover:bg-slate-200 text-3xl content-center items-center p-2 rounded-full'><CiHeart /></Link>
                         </div>
+
+                        
                     </div>
                 </div>
             </div>

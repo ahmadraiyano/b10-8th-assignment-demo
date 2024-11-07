@@ -2,13 +2,13 @@ import React from 'react';
 
 const Category = () => {
     return (
-        <div>
-            <ul>
-                <li>All Products</li>
-                <li>Phone</li>
-                <li>Tablet</li>
-                <li>Laptop</li>
-                <li>Smart Watch</li>
+        <div className='bg-white p-4'>
+            <ul className='flex flex-row lg:flex-col w-36 gap-2'>
+                <li className='p-2 bg-gray-300 text-sm md:btn'>All Products</li>
+                <li className='p-2 bg-gray-300 text-sm md:btn'>Phone</li>
+                <li className='p-2 bg-gray-300 text-sm md:btn'>Tablet</li>
+                <li className='p-2 bg-gray-300 text-sm md:btn'>Laptop</li>
+                <li className='p-2 bg-gray-300 text-sm md:btn'>Smart Watch</li>
             </ul>
         </div>
     );

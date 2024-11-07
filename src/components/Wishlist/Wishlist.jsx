@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Hero = () => {
+const Wishlist = () => {
     return (
         <div>
-            <h1>I am The Hero</h1>
+            <h3></h3>
         </div>
     );
 };
 
-export default Hero;
+export default Wishlist;
