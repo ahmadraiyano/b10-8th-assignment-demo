@@ -2,8 +2,7 @@ import React from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { LiaDollarSignSolid } from "react-icons/lia";
 import { CiStar, CiHeart, CiShoppingCart } from "react-icons/ci";
-import { addToStoredCart } from '../utility/cart';
-import { addToStoredWishlist } from '../utility/wishlist';
+import { addToStoredCart, addToStoredWishlist } from '../utility/db';
 
 const GadgetDetails = () => {
 
